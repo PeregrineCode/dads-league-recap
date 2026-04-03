@@ -137,9 +137,15 @@ body {
   font-weight: 400;
   line-height: 1.25;
   margin-top: 32px;
-  margin-bottom: 12px;
+  margin-bottom: 4px;
   padding-top: 20px;
   border-top: 1px solid var(--rule-light);
+}
+
+.article-body .byline {
+  font-size: 13px;
+  color: var(--ink-muted);
+  margin-bottom: 16px;
 }
 
 .article-body h3 {

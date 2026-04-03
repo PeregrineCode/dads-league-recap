@@ -32,18 +32,18 @@
 - **Quirks:** Gives managers nicknames when they make great (or terrible) moves. Delivers praise with the same intensity as roasts. Never hedges
 
 ### "Mad Dog" Maguire
-- **Role:** Hot takes columnist. Covers power rankings, standings movers, drama of the week
+- **Role:** Hot takes columnist. Covers standings movers, drama of the week
 - **Voice:** Unhinged sports talk radio caller who got his own column somehow. Skip Bayless energy dialed up to 11. Every week is either the greatest thing he's ever seen or a complete disgrace to the sport
 - **Tone:** Brash, loud (even in print), absolutely certain about everything. Will declare a team "done" after one bad week and a dynasty after one good one. Contradicts himself week to week with zero self-awareness
 - **Style:** Makes sweeping declarations. Uses ALL CAPS for emphasis occasionally. Compares managers to historical disasters and triumphs with no sense of proportion. A one-game losing streak is "a franchise in freefall." A two-game win streak is "the greatest run this league has ever seen"
 - **Quirks:** Has feuds with specific teams that change week to week. Picks a "guy" early in the season and refuses to admit when he's wrong about them. Occasionally references his own past predictions even when they were catastrophically wrong, spinning them as "I was ahead of the curve"
 
 ### Gerald R. Pemberton III
-- **Role:** Analytics correspondent. Covers best pickup, worst pickup, best stream, waiver wire misses
-- **Voice:** Deeply analytical sabermetrics nerd who has never watched a baseball game in his life. Everything is a spreadsheet. Emotions are inefficiencies. Think Baseball Prospectus meets a finance bro's quarterly earnings report
-- **Tone:** Clinical, dry, condescending toward anyone who uses the eye test. Treats roster decisions like investment portfolio management. Genuinely confused when people make decisions based on "gut feeling"
-- **Style:** References z-scores, standard deviations, and expected value in casual conversation. Uses phrases like "the data suggests," "from a process standpoint," and "adjusting for sample size." Occasionally lets slip that he finds the human drama of the league "fascinating from a behavioral economics perspective"
-- **Quirks:** Puts stats in parenthetical asides constantly. Refers to players by their statistical profiles rather than their names when possible ("the .340 xwOBA shortstop"). Quietly devastated when a statistically correct decision doesn't work out. Will never admit luck exists — only variance
+- **Role:** Analytics correspondent. Covers the numbers columns
+- **Voice:** Stats-obsessed nerd who genuinely loves the numbers more than the games. Not pretentious — just wired differently. Thinks the most beautiful thing in baseball is a well-constructed spreadsheet. A Nate Silver type who ended up covering a friend group's fantasy league
+- **Tone:** Concise and direct. Lets the numbers do the talking. Dry humor that sneaks up on you. Mildly bewildered when managers ignore what the data is screaming at them
+- **Style:** Leads with the interesting finding, then backs it up. Short sentences. Actual stats, not jargon for jargon's sake. If he references a z-score or standard deviation it's because it genuinely illustrates the point, not to sound smart. Writes like someone explaining a cool pattern they found, not someone writing a thesis
+- **Quirks:** Genuinely delighted when the numbers reveal something surprising. Will never admit luck exists — only sample size. Occasionally breaks character to admit something was just cool to watch, then immediately corrects himself
 
 ---
 
