@@ -1,6 +1,5 @@
 /* ============================================================
-   THE LEAGUE REPORT
-   Modern newspaper-inspired layout
+   THE LEAGUE REPORT — Mobile-first design
    ============================================================ */
 
 :root {
@@ -8,17 +7,17 @@
   --ink-secondary: #555555;
   --ink-muted: #999999;
   --rule: #111111;
-  --rule-light: #ddd;
+  --rule-light: #e0e0e0;
+  --bg: #f5f4f0;
   --paper: #ffffff;
-  --paper-bg: #f5f4f0;
   --accent: #c41230;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
-  font-family: 'Inter', -apple-system, 'Segoe UI', sans-serif;
-  background: var(--paper-bg);
+  font-family: -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg);
   color: var(--ink);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
@@ -26,64 +25,51 @@ body {
 
 /* ============ PAGE ============ */
 .page {
-  max-width: 820px;
-  margin: 0 auto;
   background: var(--paper);
   min-height: 100vh;
-  padding: 0 48px;
 }
 
 /* ============ MASTHEAD ============ */
 .masthead {
-  padding-top: 32px;
+  border-bottom: 3px solid var(--rule);
 }
 
 .masthead-rule-top {
-  height: 4px;
-  background: var(--rule);
-  margin-bottom: 2px;
-  border-bottom: 1px solid var(--rule);
+  height: 3px;
+  background: var(--accent);
 }
 
 .masthead-inner {
   text-align: center;
-  padding: 20px 0 16px;
+  padding: 16px 16px 12px;
 }
 
 .masthead-title {
   font-family: 'DM Serif Display', Georgia, serif;
-  font-size: 48px;
+  font-size: 28px;
   font-weight: 400;
   color: var(--ink);
   text-decoration: none;
   display: block;
-  letter-spacing: -0.5px;
-}
-
-.masthead-title:hover {
-  color: var(--accent);
 }
 
 .masthead-sub {
-  font-size: 12px;
+  font-size: 11px;
   color: var(--ink-muted);
   text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-top: 6px;
+  letter-spacing: 1.5px;
+  margin-top: 4px;
 }
 
-.masthead-rule-bottom {
-  border-top: 1px solid var(--rule);
-}
+.masthead-rule-bottom { display: none; }
 
 /* ---- Nav ---- */
 .nav {
   display: flex;
-  justify-content: center;
-  gap: 6px;
-  padding: 12px 0;
-  border-bottom: 3px double var(--rule);
+  gap: 2px;
+  padding: 0 12px 10px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .nav a {
@@ -92,16 +78,12 @@ body {
   color: var(--ink-secondary);
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  padding: 4px 10px;
-  border-radius: 3px;
-  transition: all 0.15s;
+  letter-spacing: 0.5px;
+  padding: 5px 10px;
+  border-radius: 4px;
 }
 
-.nav a:hover {
-  color: var(--ink);
-  background: var(--paper-bg);
-}
+.nav a:hover { color: var(--ink); }
 
 .nav a.active {
   color: var(--paper);
@@ -110,99 +92,88 @@ body {
 
 /* ============ MAIN ============ */
 .main {
-  padding: 36px 0 48px;
+  padding: 24px 16px 40px;
 }
 
-/* ============ ARTICLE ============ */
-
+/* ============ ARTICLE HEADER ============ */
 .article-header {
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 
 .article-header .kicker {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: var(--accent);
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .article-header h1 {
   font-family: 'DM Serif Display', Georgia, serif;
-  font-size: 40px;
+  font-size: 28px;
   font-weight: 400;
-  line-height: 1.15;
-  margin-bottom: 16px;
-  letter-spacing: -0.3px;
+  line-height: 1.2;
+  margin-bottom: 12px;
 }
 
 .article-header .dateline {
-  font-size: 14px;
+  font-size: 13px;
   color: var(--ink-muted);
-  padding-bottom: 20px;
+  padding-bottom: 16px;
   border-bottom: 1px solid var(--rule-light);
 }
 
-/* ---- Article body ---- */
+/* ============ ARTICLE BODY ============ */
 .article-body p {
-  font-size: 17px;
-  line-height: 1.75;
-  margin-bottom: 20px;
-  color: #222;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 16px;
 }
 
 .article-body h2 {
   font-family: 'DM Serif Display', Georgia, serif;
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 400;
-  line-height: 1.2;
-  margin-top: 44px;
-  margin-bottom: 16px;
-  padding-top: 24px;
+  line-height: 1.25;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  padding-top: 20px;
   border-top: 1px solid var(--rule-light);
 }
 
 .article-body h3 {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 700;
-  margin-top: 28px;
+  margin-top: 24px;
   margin-bottom: 8px;
 }
 
 .article-body strong {
   font-weight: 700;
-  color: var(--ink);
 }
 
 .article-body hr {
   border: none;
-  text-align: center;
-  margin: 32px 0;
-}
-
-.article-body hr::after {
-  content: "---";
-  color: var(--ink-muted);
-  font-size: 14px;
-  letter-spacing: 8px;
+  border-top: 1px solid var(--rule-light);
+  margin: 24px 0;
 }
 
 .article-body ol, .article-body ul {
-  margin-bottom: 20px;
-  padding-left: 24px;
+  margin-bottom: 16px;
+  padding-left: 20px;
 }
 
 .article-body li {
-  font-size: 17px;
-  line-height: 1.65;
-  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 6px;
 }
 
 .article-body blockquote {
   border-left: 3px solid var(--accent);
-  padding-left: 20px;
-  margin: 24px 0;
+  padding-left: 16px;
+  margin: 20px 0;
   font-style: italic;
   color: var(--ink-secondary);
 }
@@ -211,59 +182,59 @@ body {
 .article-body table {
   width: 100%;
   border-collapse: collapse;
-  margin: 24px 0;
-  font-size: 14px;
+  margin: 20px 0;
+  font-size: 13px;
+  overflow-x: auto;
+  display: block;
 }
 
 .article-body th {
-  background: var(--paper-bg);
-  padding: 10px 14px;
+  background: var(--bg);
+  padding: 8px 10px;
   text-align: left;
   font-weight: 700;
-  font-size: 12px;
+  font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   border-bottom: 2px solid var(--rule);
+  white-space: nowrap;
 }
 
 .article-body td {
-  padding: 10px 14px;
+  padding: 8px 10px;
   border-bottom: 1px solid var(--rule-light);
-}
-
-.article-body tr:hover td {
-  background: var(--paper-bg);
+  white-space: nowrap;
 }
 
 /* ============ INDEX PAGE ============ */
 .index-header {
-  margin-bottom: 36px;
-  padding-bottom: 24px;
+  margin-bottom: 28px;
+  padding-bottom: 20px;
   border-bottom: 1px solid var(--rule-light);
 }
 
 .index-header p {
   font-family: 'DM Serif Display', Georgia, serif;
-  font-size: 20px;
+  font-size: 18px;
   font-style: italic;
   color: var(--ink-secondary);
+  line-height: 1.4;
 }
 
 .section-label {
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: var(--accent);
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .featured {
-  padding: 28px;
-  margin-bottom: 40px;
+  padding: 20px;
+  margin-bottom: 32px;
   border: 1px solid var(--rule-light);
   border-top: 3px solid var(--ink);
-  background: var(--paper);
 }
 
 .featured a {
@@ -273,22 +244,20 @@ body {
 
 .featured .week-title {
   font-family: 'DM Serif Display', Georgia, serif;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 400;
-  line-height: 1.2;
-  margin-bottom: 8px;
+  line-height: 1.25;
+  margin-bottom: 6px;
 }
 
-.featured a:hover .week-title {
-  color: var(--accent);
-}
+.featured a:hover .week-title { color: var(--accent); }
 
 .featured .week-date {
-  font-size: 13px;
+  font-size: 12px;
   color: var(--ink-muted);
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .featured .read-link {
@@ -310,103 +279,78 @@ body {
 }
 
 .week-list a {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  padding: 16px 0;
+  display: block;
+  padding: 14px 0;
   text-decoration: none;
   color: var(--ink);
-  gap: 16px;
 }
 
-.week-list a:hover .week-title {
-  color: var(--accent);
-}
+.week-list a:hover .week-title { color: var(--accent); }
 
 .week-list .week-title {
   font-family: 'DM Serif Display', Georgia, serif;
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 400;
-  transition: color 0.15s;
+  margin-bottom: 2px;
 }
 
 .week-list .week-date {
-  font-size: 13px;
+  font-size: 12px;
   color: var(--ink-muted);
-  white-space: nowrap;
-  flex-shrink: 0;
 }
 
 /* ============ FOOTER ============ */
 .site-footer {
-  padding-bottom: 32px;
+  padding: 0 16px 24px;
 }
 
 .footer-rule {
-  border-top: 3px double var(--rule);
-  margin-bottom: 16px;
+  border-top: 2px solid var(--rule);
+  margin-bottom: 12px;
 }
 
 .site-footer p {
-  font-size: 12px;
+  font-size: 11px;
   color: var(--ink-muted);
   text-transform: uppercase;
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
   text-align: center;
 }
 
-/* ============ MOBILE ============ */
-@media (max-width: 768px) {
-  body { background: var(--paper); }
-
+/* ============ DESKTOP ============ */
+@media (min-width: 640px) {
   .page {
-    padding: 0 20px;
+    max-width: 680px;
+    margin: 24px auto;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
   }
 
-  .masthead-title {
-    font-size: 36px;
-  }
+  .masthead-inner { padding: 20px 24px 14px; }
+  .masthead-title { font-size: 36px; }
+  .masthead-rule-bottom { display: block; border-top: 1px solid var(--rule-light); }
+  .nav { padding: 0 20px 12px; }
 
-  .nav {
-    gap: 2px;
-  }
+  .main { padding: 32px 32px 48px; }
 
-  .nav a {
-    font-size: 11px;
-    padding: 4px 7px;
-    letter-spacing: 0.5px;
-  }
-
-  .article-header h1 {
-    font-size: 30px;
-  }
-
+  .article-header h1 { font-size: 34px; }
   .article-body p,
-  .article-body li {
-    font-size: 16px;
-  }
+  .article-body li { font-size: 17px; }
+  .article-body h2 { font-size: 26px; }
 
-  .article-body h2 {
-    font-size: 24px;
-  }
-
-  .featured {
-    padding: 20px;
-  }
-
-  .featured .week-title {
-    font-size: 24px;
-  }
+  .featured { padding: 28px; }
+  .featured .week-title { font-size: 28px; }
 
   .week-list a {
-    flex-direction: column;
-    gap: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
   }
-}
 
-@media (max-width: 480px) {
-  .page { padding: 0 16px; }
-  .masthead-title { font-size: 28px; }
-  .article-header h1 { font-size: 26px; }
-  .article-body p { font-size: 15px; }
+  .week-list .week-date {
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .site-footer { padding: 0 32px 32px; }
 }
