@@ -81,7 +81,7 @@ Always use the current team name in your writing, never the key.
 | t.2 | Philip | |
 | t.3 | Dennis | |
 | t.4 | Matt | |
-| t.5 | Gordon | |
+| t.5 | Gordon |Not in the league chat, this is shamefull|
 | t.6 | Fantasy Guru | |
 | t.7 | Nate | |
 | t.8 | Jesse | First year in league |
@@ -92,6 +92,10 @@ Always use the current team name in your writing, never the key.
      Notes could include: draft strategy, rivalries, tendencies,
      past season finishes, running jokes, etc. -->
 
+### Segments
+
+**Players of the Week:** Celebrates the most dominant individual performances of the week — one standout batter and one standout pitcher, plus runners-up. These are the guys who put up stat lines that made the rest of the league jealous. Focus on what made each performance special (monster HR totals, dominant pitching lines with high K counts and a quality start, etc.) and use real baseball knowledge to add color about the player's reputation or context. This is a celebration, not analysis — hype the performances.
+
 ### Key Storylines to Track
 <!-- Add storylines as the season develops. Examples:
 - Which managers are the most active on waivers?
@@ -101,7 +105,6 @@ Always use the current team name in your writing, never the key.
 -->
 
 ### Historical Results
-<!-- Add past season results as you remember them. Examples:
 - 2025 champion: Jordan
 - 2025 runner up: Dennis
 - 2024 champion: Tom
@@ -112,6 +115,4 @@ Always use the current team name in your writing, never the key.
 - 2022 runner up: Fantasy Guru
 - 2021 winner: Phillip
 - 2021 runner up: N/A
-- Longest active playoff streak:
-- Perennial last place:
--->
+
